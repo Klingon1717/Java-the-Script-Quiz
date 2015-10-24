@@ -1,0 +1,212 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'sync-prompt' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/package.json
+6 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/babelify/package.json
+7 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/browserify/package.json
+8 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp/package.json
+9 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-imagemin/package.json
+10 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-minify-css/package.json
+11 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-prompt/package.json
+12 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-rename/package.json
+13 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-rimraf/package.json
+14 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-sass/package.json
+15 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-sourcemaps/package.json
+16 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-uglify/package.json
+17 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-util/package.json
+18 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/gulp-webserver/package.json
+19 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/lodash.assign/package.json
+20 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/minimist/package.json
+21 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/prompt-sync/package.json
+22 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/vinyl-buffer/package.json
+23 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/vinyl-source-stream/package.json
+24 verbose installManyTop reading scoped package data from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/watchify/package.json
+25 info package.json gulp-rename@1.2.2 No license field.
+26 info package.json gulp-rimraf@0.1.1 No license field.
+27 verbose readDependencies loading dependencies from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/package.json
+28 silly cache add args [ 'sync-prompt', null ]
+29 verbose cache add spec sync-prompt
+30 silly cache add parsed spec { raw: 'sync-prompt',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'sync-prompt',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: '*',
+30 silly cache add   type: 'range' }
+31 silly addNamed sync-prompt@*
+32 verbose addNamed "*" is a valid semver range for sync-prompt
+33 silly addNameRange { name: 'sync-prompt', range: '*', hasData: false }
+34 silly mapToRegistry name sync-prompt
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/sync-prompt
+38 verbose addNameRange registry:https://registry.npmjs.org/sync-prompt not in flight; fetching
+39 verbose request uri https://registry.npmjs.org/sync-prompt
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 13:12:18
+42 verbose request id 124a78da2300608f
+43 verbose etag "3HZPSHVEDT3IDAFS165GJKE66"
+44 http request GET https://registry.npmjs.org/sync-prompt
+45 http 304 https://registry.npmjs.org/sync-prompt
+46 silly get cb [ 304,
+46 silly get   { date: 'Thu, 22 Oct 2015 18:12:18 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     'cache-control': 'max-age=60',
+46 silly get     etag: '"3HZPSHVEDT3IDAFS165GJKE66"',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-dfw1825-DFW',
+46 silly get     'x-cache': 'MISS',
+46 silly get     'x-cache-hits': '0',
+46 silly get     'x-timer': 'S1445537538.408981,VS0,VE65',
+46 silly get     vary: 'Accept' } ]
+47 verbose etag https://registry.npmjs.org/sync-prompt from cache
+48 verbose get saving sync-prompt to /Users/KevinAndrewMurray/.npm/registry.npmjs.org/sync-prompt/.cache.json
+49 silly addNameRange number 2 { name: 'sync-prompt', range: '*', hasData: true }
+50 silly addNameRange versions [ 'sync-prompt',
+50 silly addNameRange   [ '0.0.0',
+50 silly addNameRange     '0.0.1',
+50 silly addNameRange     '0.1.0',
+50 silly addNameRange     '0.2.0',
+50 silly addNameRange     '0.2.1',
+50 silly addNameRange     '0.2.2',
+50 silly addNameRange     '0.3.1',
+50 silly addNameRange     '0.3.2',
+50 silly addNameRange     '0.3.3-beta',
+50 silly addNameRange     '0.4.0',
+50 silly addNameRange     '0.4.1',
+50 silly addNameRange     '0.4.2' ] ]
+51 silly addNamed sync-prompt@0.4.2
+52 verbose addNamed "0.4.2" is a plain semver version for sync-prompt
+53 silly cache afterAdd sync-prompt@0.4.2
+54 verbose afterAdd /Users/KevinAndrewMurray/.npm/sync-prompt/0.4.2/package/package.json not in flight; writing
+55 verbose afterAdd /Users/KevinAndrewMurray/.npm/sync-prompt/0.4.2/package/package.json written
+56 silly install resolved [ { name: 'sync-prompt',
+56 silly install resolved     description: 'The missing prompt function for Node.js',
+56 silly install resolved     homepage: 'https://github.com/shovon/sync-prompt',
+56 silly install resolved     keywords:
+56 silly install resolved      [ 'command',
+56 silly install resolved        'line',
+56 silly install resolved        'io',
+56 silly install resolved        'cli',
+56 silly install resolved        'commandline',
+56 silly install resolved        'commandlineinterface',
+56 silly install resolved        'commandlineinput',
+56 silly install resolved        'input',
+56 silly install resolved        'output',
+56 silly install resolved        'stdin',
+56 silly install resolved        'synchronous' ],
+56 silly install resolved     version: '0.4.2',
+56 silly install resolved     author:
+56 silly install resolved      { name: 'Salehen Shovon Rahman',
+56 silly install resolved        email: 'sal@linux.com',
+56 silly install resolved        url: 'http://shovon.github.io' },
+56 silly install resolved     scripts:
+56 silly install resolved      { test: './node_modules/mocha/bin/mocha && ./node_modules/jshint/bin/jshint .',
+56 silly install resolved        coverage: './node_modules/istanbul/lib/cli.js cover _mocha -- -u exports -R spec',
+56 silly install resolved        coveralls: './node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage',
+56 silly install resolved        install: 'node-gyp rebuild' },
+56 silly install resolved     repository:
+56 silly install resolved      { type: 'git',
+56 silly install resolved        url: 'git+https://github.com/shovon/sync-prompt.git' },
+56 silly install resolved     bugs: { url: 'https://github.com/shovon/sync-prompt/issues' },
+56 silly install resolved     license:
+56 silly install resolved      { type: 'MIT',
+56 silly install resolved        url: 'https://github.com/shovon/blob/master/LICENSE' },
+56 silly install resolved     main: './lib/sync-prompt',
+56 silly install resolved     devDependencies:
+56 silly install resolved      { sinon: '~1.7.3',
+56 silly install resolved        jshint: '~2.1.4',
+56 silly install resolved        mocha: '~1.12.0',
+56 silly install resolved        istanbul: '~0.1.44',
+56 silly install resolved        coveralls: '~2.3.0',
+56 silly install resolved        'mocha-lcov-reporter': '0.0.1' },
+56 silly install resolved     gypfile: true,
+56 silly install resolved     gitHead: '088a39c65c5efc4cef94717ea6ff6ad7869fc17e',
+56 silly install resolved     _id: 'sync-prompt@0.4.2',
+56 silly install resolved     _shasum: '9bf28c298dbd362189713087c277b4e903aaf371',
+56 silly install resolved     _from: 'sync-prompt@*',
+56 silly install resolved     _npmVersion: '2.5.1',
+56 silly install resolved     _nodeVersion: '1.2.0',
+56 silly install resolved     _npmUser: { name: 'shovon', email: 'sal@linux.com' },
+56 silly install resolved     maintainers: [ [Object] ],
+56 silly install resolved     dist:
+56 silly install resolved      { shasum: '9bf28c298dbd362189713087c277b4e903aaf371',
+56 silly install resolved        tarball: 'http://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz' },
+56 silly install resolved     directories: {},
+56 silly install resolved     _resolved: 'https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz',
+56 silly install resolved     readme: 'ERROR: No README data found!' } ]
+57 info install sync-prompt@0.4.2 into /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz
+58 info installOne sync-prompt@0.4.2
+59 verbose installOne of sync-prompt to /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz not in flight; installing
+60 verbose lock using /Users/KevinAndrewMurray/.npm/_locks/sync-prompt-e6d2e4f96280d6a7.lock for /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+61 silly install write writing sync-prompt 0.4.2 to /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+62 verbose unbuild node_modules/sync-prompt
+63 silly gentlyRm /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt is being purged from base /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz
+64 verbose gentlyRm don't care about contents; nuking /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+65 verbose tar unpack /Users/KevinAndrewMurray/.npm/sync-prompt/0.4.2/package.tgz
+66 verbose tar unpacking to /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+67 silly gentlyRm /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt is being purged
+68 verbose gentlyRm don't care about contents; nuking /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+69 silly gunzTarPerm modes [ '755', '644' ]
+70 silly gunzTarPerm extractEntry package.json
+71 silly gunzTarPerm extractEntry .npmignore
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm extractEntry LICENSE
+74 silly gunzTarPerm extractEntry test.js
+75 silly gunzTarPerm extractEntry HISTORY.md
+76 silly gunzTarPerm extractEntry binding.gyp
+77 silly gunzTarPerm extractEntry lib/sync-prompt.js
+78 silly gunzTarPerm extractEntry src/sync_prompt.cc
+79 verbose write writing to /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt/package.json
+80 info preinstall sync-prompt@0.4.2
+81 verbose readDependencies loading dependencies from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt/package.json
+82 verbose readDependencies loading dependencies from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt/package.json
+83 silly install resolved []
+84 verbose about to build /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+85 info build /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+86 info linkStuff sync-prompt@0.4.2
+87 silly linkStuff sync-prompt@0.4.2 has /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules as its parent node_modules
+88 verbose linkBins sync-prompt@0.4.2
+89 verbose linkMans sync-prompt@0.4.2
+90 verbose rebuildBundles sync-prompt@0.4.2
+91 info install sync-prompt@0.4.2
+92 verbose unsafe-perm in lifecycle true
+93 info sync-prompt@0.4.2 Failed to exec install script
+94 verbose unlock done using /Users/KevinAndrewMurray/.npm/_locks/sync-prompt-e6d2e4f96280d6a7.lock for /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+95 verbose stack Error: sync-prompt@0.4.2 install: `node-gyp rebuild`
+95 verbose stack Exit status 1
+95 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+95 verbose stack     at EventEmitter.emit (events.js:110:17)
+95 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+95 verbose stack     at ChildProcess.emit (events.js:110:17)
+95 verbose stack     at maybeClose (child_process.js:1015:16)
+95 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+96 verbose pkgid sync-prompt@0.4.2
+97 verbose cwd /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz
+98 error Darwin 14.5.0
+99 error argv "node" "/usr/local/bin/npm" "install" "sync-prompt"
+100 error node v0.12.7
+101 error npm  v2.12.1
+102 error code ELIFECYCLE
+103 error sync-prompt@0.4.2 install: `node-gyp rebuild`
+103 error Exit status 1
+104 error Failed at the sync-prompt@0.4.2 install script 'node-gyp rebuild'.
+104 error This is most likely a problem with the sync-prompt package,
+104 error not with npm itself.
+104 error Tell the author that this fails on your system:
+104 error     node-gyp rebuild
+104 error You can get their info via:
+104 error     npm owner ls sync-prompt
+104 error There is likely additional logging output above.
+105 verbose exit [ 1, true ]
+106 verbose unbuild node_modules/sync-prompt
+107 info preuninstall sync-prompt@0.4.2
+108 info uninstall sync-prompt@0.4.2
+109 verbose unbuild rmStuff sync-prompt@0.4.2 from /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules
+110 info postuninstall sync-prompt@0.4.2
+111 silly gentlyRm /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt is being purged from base /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz
+112 verbose gentlyRm don't care about contents; nuking /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+113 silly vacuum-fs purging /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules/sync-prompt
+114 silly vacuum-fs quitting because other entries in /Users/KevinAndrewMurray/tiy/do-or-die/Java-the-Script-Quiz/node_modules
